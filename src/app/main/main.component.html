@@ -1,0 +1,17 @@
+<section class="main">
+    <article class="main-container">
+        <div class="main-container-title">
+            <img [src]="chuck" alt="">
+            <h1 class="block">
+                <h1 class="visible">Chuck Norris <span class="visible">Jokes</span></h1>
+            </h1>
+        </div>
+        <div class="main-container-content">
+            <img [src]="toilet" alt="">
+            <p><span>“</span> {{ joke }} <span>”</span></p>
+        </div>
+        <div class="main-container-button">
+            <button (click)="clickJoke()">Get Joke</button>
+        </div>
+    </article>
+</section>
